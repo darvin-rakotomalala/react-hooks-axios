@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## React Hooks Axios
+Dans ce projet nous allons voir quelques exemples d'Axios avec React Hooks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contexte
+---
+Lorsque nous travaillons sur le développement Web, nous devons tous récupérer les données, les enregistrer et effectuer n'importe quelle action. Dans ce cas, nous avons besoin du moyen d'appeler ces services que nous pouvons appeler cette API REST. Reactjs Axios est basé sur des promesses car il nous donne la possibilité de tirer parti de la fonctionnalité Javascript asynchrone et en attente. Cela nous donne un code asynchrone plus lisible.
 
-## Available Scripts
+### Pourquoi utiliser Reactjs Axios ?
+---
+Axios est basé sur la promesse. Il fournit également un ensemble de fonctionnalités plus flexibles et plus puissantes. Ce sont les avantages d'utiliser rectjs Axios.
+1. Il prend en charge un ancien navigateur.
+2. Il a une protection CSRF intégrée
+3. Il a la capacité d'annuler les demandes
+4. prise en charge de la progression du téléchargement
+5. Interception des requêtes et des réponses
+6. Il a une propriété de délai d'attente optimale dans la configuration. Là, nous pouvons définir le nombre de millisecondes avant que la demande soit abandonnée.
+7. Il a une transformation automatique des données JSON
+8. Intercepteurs HTTP
+9. Requêtes simultanées
+10. Il a une meilleure gestion des erreurs
 
-In the project directory, you can run:
+### Prérequis
+---
+- Nodejs LTS
+- yarn
+- yarn add react-router-dom@5.3.0
+- yarn add axios
 
-### `yarn start`
+### Exécuter et tester l'App
+---
+Lancer l'applications avec la commande `yarn start`
+<br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Voilà ! nous avons vu un exemple d'Axios avec React Hooks.
